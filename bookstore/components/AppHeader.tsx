@@ -7,6 +7,7 @@ export default function AppHeader() {
       {/* Logo / tên app */}
       <Text style={styles.logo}>BookStore</Text>
 
+      {/* Action */}
       <View style={styles.actions}>
         <TouchableOpacity style={styles.iconButton}>
           <Ionicons
